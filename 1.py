@@ -10,13 +10,10 @@ class Restaurant:
     def open_restaurant(self):
         print("Ресторан открыт")
 
-# Создаем экземпляр класса Restaurant
 newRestaurant = Restaurant("TOKIO CITY", "Азиатская")
 
-# Выводим атрибуты по отдельности
 print(newRestaurant.restaurant_name)
 print(newRestaurant.cuisine_type)
 
-# Вызываем методы
 newRestaurant.describe_restaurant()
 newRestaurant.open_restaurant()
